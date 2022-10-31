@@ -1,0 +1,37 @@
+/* body{
+    background-color: red;
+} */
+.main{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0rem;
+}
+.cookie-img{
+    height: 6rem;
+    width: 6rem;
+}
+#count-of-cookie{
+    font-size: 6rem;
+}
+.elem{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 5px;
+}
+.grandma{
+    border-right: 2px dashed var(--primary-color);
+    padding-right: 2rem;
+}
+.factory{
+    border-left: 2px dashed var(--primary-color);
+    padding-left: 2rem;
+}
+.all-elements{
+    border-bottom: 2px solid var(--primary-color);
+}
+/* @media screen and (min-width: 500px) {
+    body {
+      background-color: lightgreen;
+    }
+} */
