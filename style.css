@@ -1,0 +1,71 @@
+:root{
+    --primary-color: hsl(209, 61%, 16%);
+    color: var(--primary-color);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+.cookie-img{
+    height: 12rem;
+    width: 12rem;
+    margin: 1rem;
+}
+#count-of-cookie{
+    font-size: 12rem;
+}
+.all-elements{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid var(--primary-color);
+    overflow: hidden;
+}
+.count{
+    font-size: 4rem;
+}
+.comm-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.master-inst{
+    height: 0;
+    overflow: hidden;
+    transition: ease 0.5s;
+}
+.show-master-inst{
+    height: 30rem;
+}
+.toggler{
+    display: flex;
+    justify-content: center;
+}
+.grandma-img{
+    height: 3rem;
+    width: 3rem;
+}
+.factory-img{
+    height: 3rem;
+    width: 3rem;
+}
+.baker-img{
+    height: 3rem;
+    width: 3rem;
+}
+.audio-stop{
+    padding: 1rem;
+    font-size: 1rem;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    background: transparent;
+    border-radius: 5px;
+}
