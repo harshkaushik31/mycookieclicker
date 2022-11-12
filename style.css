@@ -1,0 +1,117 @@
+:root{
+    --transition: ease 1s;
+    --primary-color: hsl(209, 61%, 16%);
+    color: var(--primary-color);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+.cookie-img{
+    height: 12rem;
+    width: 12rem;
+    margin: 1rem;
+}
+#count-of-cookie{
+    font-size: 12rem;
+}
+.all-elements{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid var(--primary-color);
+    overflow: hidden;
+}
+.count{
+    font-size: 4rem;
+}
+.comm-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.master-inst{
+    height: 0;
+    overflow: hidden;
+    transition: ease 0.5s;
+}
+.show-master-inst{
+    height: 30rem;
+}
+.toggler{
+    display: flex;
+    justify-content: center;
+}
+.grandma-img{
+    height: 3rem;
+    width: 3rem;
+}
+.factory-img{
+    height: 3rem;
+    width: 3rem;
+}
+.baker-img{
+    height: 3rem;
+    width: 3rem;
+}
+.audio-stop{
+    padding: 1rem;
+    font-size: 1rem;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    background: transparent;
+    border-radius: 5px;
+}
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    display: grid;
+    place-items: center;
+    transition: var(--transition);
+    visibility: hidden;
+    z-index: -10;
+}
+  /* OPEN/CLOSE MODAL */
+.open-modal{
+    visibility: visible;
+    z-index: 10;
+}
+.modal-container{
+    background: whitesmoke;
+    border-radius: 12px;
+    width: 90vw;
+    height: 50vh;
+    max-width: 90vw;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.close-btn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    color: red;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.close-btn:hover{
+    color: rgb(238, 56, 56);
+    transform: scale(1.3);
+}
